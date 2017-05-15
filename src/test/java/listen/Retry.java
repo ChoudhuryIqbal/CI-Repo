@@ -11,21 +11,7 @@ public class Retry implements IRetryAnalyzer {
 	// below method return true if the test
 	// method has to be retried else "false
 
-	@Override
-	public boolean retry(ITestResult result) {
-		// TODO Auto-generated method stub
-		if (retryCount < maxRetryCount) {
-			System.out.println("Retrying test "
-
-					+ result.getName() + "with status" + getResultStatusName(result.getStatus()) + "for the "
-					+ (retryCount + 1) + "Times");
-			retryCount++;
-			return true;
-
-		}
-
-		return false;
-	}
+	
 
 	private String getResultStatusName(int status) {
 		// TODO Auto-generated method stub
@@ -41,6 +27,21 @@ public class Retry implements IRetryAnalyzer {
 		}
 
 		return resultName;
+	}
+
+	public boolean retry(ITestResult result) {
+		// TODO Auto-generated method stub
+		if (retryCount < maxRetryCount) {
+			System.out.println("Retrying test "
+
+					+ result.getName() + "with status" + getResultStatusName(result.getStatus()) + "for the "
+					+ (retryCount + 1) + "Times");
+			retryCount++;
+			return true;
+
+		}
+
+		return false;
 	}
 
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="listen.Listener"></listener>
+<listener class-name="listen.RetryListener"></listener>
+
+</listeners>
+	<test name="Test">
+		<classes>
+			<class
+				name="jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1" />
+			<class
+				name="jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
