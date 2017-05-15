@@ -1,0 +1,64 @@
+2017-05-12 10:51:15 INFO  Test1:13 - Starting test1 log4 j used 
+2017-05-12 12:44:11 INFO  Test1:13 - Starting test1 log4 j used 
+2017-05-12 12:44:11 WARN  Test1:21 - Hum now i am goonna do t2
+2017-05-12 12:44:11 INFO  Test1:28 - gonna do t3
+2017-05-12 12:44:11 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-12 12:44:11 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-12 12:44:11 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-12 12:47:21 INFO  Test1:13 - Starting test1 log4 j used 
+2017-05-12 12:47:21 WARN  Test1:21 - Hum now i am goonna do t2
+2017-05-12 12:47:21 INFO  Test1:28 - gonna do t3
+2017-05-12 12:47:21 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-12 12:47:21 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-12 12:47:21 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-14 01:31:07 INFO  Test1:13 - Starting test1 log4 j used 
+2017-05-14 01:31:07 WARN  Test1:21 - Hum now i am goonna do t2
+2017-05-14 01:31:07 INFO  Test1:28 - gonna do t3
+2017-05-14 01:31:07 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-14 01:31:07 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-14 01:31:07 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-14 01:32:48 INFO  Test1:13 - Starting test1 log4 j used 
+2017-05-14 01:32:48 WARN  Test1:21 - Hum now i am goonna do t2
+2017-05-14 01:32:48 INFO  Test1:28 - gonna do t3
+2017-05-14 01:32:48 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-14 01:32:48 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-14 01:32:48 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-14 01:35:16 INFO  Test1:13 - Starting test1 log4 j used 
+2017-05-14 01:35:16 WARN  Test1:21 - Hum now i am goonna do t2
+2017-05-14 01:35:16 INFO  Test1:28 - gonna do t3
+2017-05-14 01:35:16 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-14 01:35:16 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-14 01:35:16 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-14 01:39:13 INFO  Test1:13 - Starting test1 log4 j used 
+2017-05-14 01:39:13 WARN  Test1:21 - Hum now i am goonna do t2
+2017-05-14 01:39:13 INFO  Test1:28 - gonna do t3
+2017-05-14 01:39:13 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-14 01:39:13 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-14 01:39:13 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-14 01:39:55 INFO  Test1:13 - Starting test1 log4 j used 
+2017-05-14 01:39:55 WARN  Test1:21 - Hum now i am goonna do t2
+2017-05-14 01:39:55 INFO  Test1:28 - gonna do t3
+2017-05-14 01:39:55 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-14 01:39:55 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-14 01:39:55 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-14 03:46:01 INFO  Test1:14 - Starting test1 log4 j used 
+2017-05-14 03:46:01 INFO  Test1:14 - Starting test1 log4 j used 
+2017-05-14 03:46:01 WARN  Test1:23 - Hum now i am goonna do t2
+2017-05-14 03:46:01 INFO  Test1:30 - gonna do t3
+2017-05-14 03:46:01 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-14 03:46:01 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-14 03:46:01 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-14 03:46:52 INFO  Test1:14 - Starting test1 log4 j used 
+2017-05-14 03:46:52 INFO  Test1:14 - Starting test1 log4 j used 
+2017-05-14 03:46:52 WARN  Test1:23 - Hum now i am goonna do t2
+2017-05-14 03:46:52 INFO  Test1:30 - gonna do t3
+2017-05-14 03:46:52 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-14 03:46:52 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-14 03:46:52 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-14 03:51:57 INFO  Test1:14 - Starting test1 log4 j used 
+2017-05-14 03:51:57 INFO  Test1:14 - Starting test1 log4 j used 
+2017-05-14 03:51:57 WARN  Test1:23 - Hum now i am goonna do t2
+2017-05-14 03:51:57 INFO  Test1:30 - gonna do t3
+2017-05-14 03:51:57 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-14 03:51:57 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-14 03:51:57 INFO  Test1:24 - logging Log 2 from pack2
