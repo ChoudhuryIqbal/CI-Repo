@@ -134,32 +134,19 @@
       <![CDATA[AfterClass completed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="69" started-at="2017-05-15T14:15:51Z" finished-at="2017-05-15T14:15:51Z">
+  <suite name="Suite" duration-ms="136" started-at="2017-05-16T14:51:21Z" finished-at="2017-05-16T14:51:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="69" started-at="2017-05-15T14:15:51Z" finished-at="2017-05-15T14:15:51Z">
+    <test name="Test" duration-ms="136" started-at="2017-05-16T14:51:21Z" finished-at="2017-05-16T14:51:21Z">
       <class name="jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1">
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
-              <![CDATA[AfterClass completed]]>
+              <![CDATA[BeforeClass completed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="t2()[pri:3, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="t2" duration-ms="0" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
-          <reporter-output>
-            <line>
-              <![CDATA[-----Starting test----t2]]>
-            </line>
-            <line>
-              <![CDATA[completed Test1 class t2 pack2]]>
-            </line>
-            <line>
-              <![CDATA[----- test success----t2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- t2 -->
-        <test-method status="PASS" signature="t1()[pri:1, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="t1" duration-ms="0" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="t1()[pri:1, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="t1" duration-ms="1" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t1]]>
@@ -172,7 +159,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- t1 -->
-        <test-method status="PASS" signature="t3()[pri:2, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="t3" duration-ms="0" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
+        <test-method status="PASS" signature="t3()[pri:2, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="t3" duration-ms="1" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t3]]>
@@ -185,23 +172,36 @@
             </line>
           </reporter-output>
         </test-method> <!-- t3 -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
+        <test-method status="PASS" signature="t2()[pri:3, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="t2" duration-ms="1" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
-              <![CDATA[BeforeClass completed]]>
+              <![CDATA[-----Starting test----t2]]>
+            </line>
+            <line>
+              <![CDATA[completed Test1 class t2 pack2]]>
+            </line>
+            <line>
+              <![CDATA[----- test success----t2]]>
             </line>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@7a0ac6e3]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterClass completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1 -->
       <class name="jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="beforeClass" is-config="true" duration-ms="16" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="beforeClass" is-config="true" duration-ms="26" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[BeforeClass completed]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="t1()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="t1" duration-ms="0" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
+        <test-method status="PASS" signature="t1()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="t1" duration-ms="22" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t1]]>
@@ -214,7 +214,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- t1 -->
-        <test-method status="PASS" signature="t2()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="t2" duration-ms="16" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
+        <test-method status="PASS" signature="t2()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="t2" duration-ms="7" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t2]]>
@@ -227,7 +227,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- t2 -->
-        <test-method status="PASS" signature="t3()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="t3" duration-ms="0" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
+        <test-method status="PASS" signature="t3()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="t3" duration-ms="0" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t3]]>
@@ -240,7 +240,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- t3 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-15T10:15:51Z" finished-at="2017-05-15T10:15:51Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@59a6e353]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[AfterClass completed]]>
@@ -250,12 +250,19 @@
       </class> <!-- jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
-  <suite name="Suite (0)" duration-ms="0" started-at="2017-05-15T14:15:52Z" finished-at="2017-05-15T14:15:52Z">
+  <suite name="Suite (0)" duration-ms="19" started-at="2017-05-16T14:51:21Z" finished-at="2017-05-16T14:51:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="0" started-at="2017-05-15T14:15:52Z" finished-at="2017-05-15T14:15:52Z">
+    <test name="Test" duration-ms="19" started-at="2017-05-16T14:51:21Z" finished-at="2017-05-16T14:51:21Z">
       <class name="jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1">
-        <test-method status="PASS" signature="t1()[pri:1, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="t1" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeClass completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="t1()[pri:1, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="t1" duration-ms="1" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t1]]>
@@ -268,27 +275,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- t1 -->
-        <test-method status="PASS" signature="t2()[pri:3, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="t2" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[-----Starting test----t2]]>
-            </line>
-            <line>
-              <![CDATA[completed Test1 class t2 pack2]]>
-            </line>
-            <line>
-              <![CDATA[----- test success----t2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- t2 -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[BeforeClass completed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="t3()[pri:2, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="t3" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
+        <test-method status="PASS" signature="t3()[pri:2, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="t3" duration-ms="0" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t3]]>
@@ -301,7 +288,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- t3 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
+        <test-method status="PASS" signature="t2()[pri:3, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="t2" duration-ms="2" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----Starting test----t2]]>
+            </line>
+            <line>
+              <![CDATA[completed Test1 class t2 pack2]]>
+            </line>
+            <line>
+              <![CDATA[----- test success----t2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@6aaa5eb0]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[AfterClass completed]]>
@@ -310,27 +310,14 @@
         </test-method> <!-- afterClass -->
       </class> <!-- jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1 -->
       <class name="jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1">
-        <test-method status="PASS" signature="t2()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="t2" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
-              <![CDATA[-----Starting test----t2]]>
-            </line>
-            <line>
-              <![CDATA[completed Test1 class t2]]>
-            </line>
-            <line>
-              <![CDATA[----- test success----t2]]>
+              <![CDATA[BeforeClass completed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- t2 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[AfterClass completed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="t1()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="t1" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="t1()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="t1" duration-ms="0" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t1]]>
@@ -343,14 +330,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- t1 -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
+        <test-method status="PASS" signature="t2()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="t2" duration-ms="0" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
-              <![CDATA[BeforeClass completed]]>
+              <![CDATA[-----Starting test----t2]]>
+            </line>
+            <line>
+              <![CDATA[completed Test1 class t2]]>
+            </line>
+            <line>
+              <![CDATA[----- test success----t2]]>
             </line>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="t3()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="t3" duration-ms="0" started-at="2017-05-15T10:15:52Z" finished-at="2017-05-15T10:15:52Z">
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="t3()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="t3" duration-ms="0" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t3]]>
@@ -363,6 +356,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- t3 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@13969fbe]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-16T10:51:21Z" finished-at="2017-05-16T10:51:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterClass completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite (0) -->
