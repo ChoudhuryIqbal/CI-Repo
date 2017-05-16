@@ -62,3 +62,9 @@
 2017-05-14 03:51:57 INFO  Test1:17 - logging Log 1 from pack2
 2017-05-14 03:51:57 INFO  Test1:31 - logging Log 3 from pack2
 2017-05-14 03:51:57 INFO  Test1:24 - logging Log 2 from pack2
+2017-05-16 13:45:29 INFO  Test1:14 - Starting test1 log4 j used 
+2017-05-16 13:45:29 WARN  Test1:23 - Hum now i am goonna do t2
+2017-05-16 13:45:29 INFO  Test1:30 - gonna do t3
+2017-05-16 13:45:29 INFO  Test1:17 - logging Log 1 from pack2
+2017-05-16 13:45:29 INFO  Test1:31 - logging Log 3 from pack2
+2017-05-16 13:45:29 INFO  Test1:24 - logging Log 2 from pack2

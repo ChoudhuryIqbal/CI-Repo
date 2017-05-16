@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" ignored="0" total="7" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
     <line>
       <![CDATA[BeforeClass completed]]>
@@ -11,16 +11,7 @@
       <![CDATA[completed Test1 class t1]]>
     </line>
     <line>
-      <![CDATA[-----Skipped test----t1]]>
-    </line>
-    <line>
-      <![CDATA[-----Starting test----t1]]>
-    </line>
-    <line>
-      <![CDATA[completed Test1 class t1]]>
-    </line>
-    <line>
-      <![CDATA[-----failed  test----t1]]>
+      <![CDATA[----- test success----t1]]>
     </line>
     <line>
       <![CDATA[-----Starting test----t2]]>
@@ -77,45 +68,12 @@
       <![CDATA[AfterClass completed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="69" started-at="2017-05-14T07:51:57Z" finished-at="2017-05-14T07:51:57Z">
+  <suite name="Suite" duration-ms="93" started-at="2017-05-16T17:45:29Z" finished-at="2017-05-16T17:45:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="69" started-at="2017-05-14T07:51:57Z" finished-at="2017-05-14T07:51:57Z">
+    <test name="Test" duration-ms="93" started-at="2017-05-16T17:45:29Z" finished-at="2017-05-16T17:45:29Z">
       <class name="jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1">
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
-          <reporter-output>
-            <line>
-              <![CDATA[AfterClass completed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="t2()[pri:3, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="t2" duration-ms="0" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
-          <reporter-output>
-            <line>
-              <![CDATA[-----Starting test----t2]]>
-            </line>
-            <line>
-              <![CDATA[completed Test1 class t2 pack2]]>
-            </line>
-            <line>
-              <![CDATA[----- test success----t2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- t2 -->
-        <test-method status="PASS" signature="t3()[pri:2, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="t3" duration-ms="0" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
-          <reporter-output>
-            <line>
-              <![CDATA[-----Starting test----t3]]>
-            </line>
-            <line>
-              <![CDATA[completed Test1 class t3 pack2]]>
-            </line>
-            <line>
-              <![CDATA[----- test success----t3]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- t3 -->
-        <test-method status="PASS" signature="t1()[pri:1, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="t1" duration-ms="0" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
+        <test-method status="PASS" signature="t1()[pri:1, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="t1" duration-ms="0" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t1]]>
@@ -128,127 +86,56 @@
             </line>
           </reporter-output>
         </test-method> <!-- t1 -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
           <reporter-output>
             <line>
               <![CDATA[BeforeClass completed]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-      </class> <!-- jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1 -->
-      <class name="jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
           <reporter-output>
             <line>
-              <![CDATA[BeforeClass completed]]>
+              <![CDATA[AfterClass completed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="t1()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="t1" duration-ms="18" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1.t1(Test1.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="t3()[pri:2, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="t3" duration-ms="0" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
           <reporter-output>
             <line>
-              <![CDATA[-----Starting test----t1]]>
+              <![CDATA[-----Starting test----t3]]>
             </line>
             <line>
-              <![CDATA[completed Test1 class t1]]>
+              <![CDATA[completed Test1 class t3 pack2]]>
             </line>
             <line>
-              <![CDATA[-----Skipped test----t1]]>
+              <![CDATA[----- test success----t3]]>
             </line>
           </reporter-output>
-        </test-method> <!-- t1 -->
-        <test-method status="PASS" signature="t2()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="t2" duration-ms="0" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
+        </test-method> <!-- t3 -->
+        <test-method status="PASS" signature="t2()[pri:3, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1@4667ae56]" name="t2" duration-ms="0" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t2]]>
             </line>
             <line>
-              <![CDATA[completed Test1 class t2]]>
+              <![CDATA[completed Test1 class t2 pack2]]>
             </line>
             <line>
               <![CDATA[----- test success----t2]]>
             </line>
           </reporter-output>
         </test-method> <!-- t2 -->
-        <test-method status="FAIL" signature="t1()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="t1" duration-ms="0" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1.t1(Test1.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+      </class> <!-- jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack2.Test1 -->
+      <class name="jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="beforeClass" is-config="true" duration-ms="16" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeClass completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="t1()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="t1" duration-ms="31" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t1]]>
@@ -257,11 +144,18 @@
               <![CDATA[completed Test1 class t1]]>
             </line>
             <line>
-              <![CDATA[-----failed  test----t1]]>
+              <![CDATA[----- test success----t1]]>
             </line>
           </reporter-output>
         </test-method> <!-- t1 -->
-        <test-method status="PASS" signature="t3()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="t3" duration-ms="2" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterClass completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="t3()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="t3" duration-ms="0" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
           <reporter-output>
             <line>
               <![CDATA[-----Starting test----t3]]>
@@ -274,13 +168,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- t3 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-14T03:51:57Z" finished-at="2017-05-14T03:51:57Z">
+        <test-method status="PASS" signature="t2()[pri:0, instance:jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1@1a968a59]" name="t2" duration-ms="0" started-at="2017-05-16T13:45:29Z" finished-at="2017-05-16T13:45:29Z">
           <reporter-output>
             <line>
-              <![CDATA[AfterClass completed]]>
+              <![CDATA[-----Starting test----t2]]>
+            </line>
+            <line>
+              <![CDATA[completed Test1 class t2]]>
+            </line>
+            <line>
+              <![CDATA[----- test success----t2]]>
             </line>
           </reporter-output>
-        </test-method> <!-- afterClass -->
+        </test-method> <!-- t2 -->
       </class> <!-- jenkins_maven_log4IntegrationProject.com.iqbal.choudhury.pack1.Test1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
